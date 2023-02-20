@@ -1,0 +1,30 @@
+@import 'variables';
+
+.about {
+    background-color: $color-bg-box;
+    border-radius: 5px;
+
+    &__title {
+        font-size: $font-title;
+        padding: 20px 0;
+    }
+
+    &__description {
+        font-size: $font-size-medium;
+        text-align: justify;
+        line-height: 2.5rem;
+        letter-spacing: .2px;
+        padding-bottom: 20px;
+    }
+
+    @media (max-width: 426px) {
+        &__title {
+            font-size: $font-size;
+        }
+
+        &__description {
+            font-size: $font-size-small;
+            line-height: 2.2rem;
+        }
+    }
+}
