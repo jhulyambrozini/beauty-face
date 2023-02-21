@@ -7,9 +7,8 @@ Esta aplicação está disponível online no endereço: [Beauty Face](https://be
 ## Tecnologias utilizadas
 - HTML5
 - CSS3
-- JavaScript
 - SASS
-- Webpack
+- Parcel
 
 ## Como rodar o projeto
 - Baixar ou clonar este repositório, no terminal executar `npm i` ou `npm install`
