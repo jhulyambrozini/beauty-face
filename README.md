@@ -2,8 +2,6 @@
 Site onepage de uma loja de produtos de beleza femenino. Logo e layout pensados por Jhuly Ambrozini.
 Esta aplicação está disponível online no endereço: [Beauty Face](https://beauty-face.vercel.app/).
 
-![Layout da aplicação](./src/assets/layout.png)
-
 ## Tecnologias utilizadas
 - HTML5
 - CSS3
