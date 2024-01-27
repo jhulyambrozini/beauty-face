@@ -2,29 +2,23 @@
 
 .about {
     background-color: $color-bg-box;
-    border-radius: 5px;
-
-    &__title {
-        font-size: $font-title;
-        padding: 20px 0;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     &__description {
-        font-size: $font-size-medium;
-        text-align: justify;
-        line-height: 2.5rem;
+        font-size: $font-size-small;
+        text-align: center;
+        line-height: 22px;
         letter-spacing: .2px;
-        padding-bottom: 20px;
+        max-width: 80ch;
+        text-wrap: pretty;
     }
 
-    @media (max-width: 426px) {
-        &__title {
-            font-size: $font-size;
-        }
-
+    @media only screen and (max-width: 426px) {
         &__description {
-            font-size: $font-size-small;
-            line-height: 2.2rem;
+            font-size: 1.4rem;
         }
     }
 }

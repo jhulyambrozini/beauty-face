@@ -36,9 +36,10 @@ footer {
 .container {
     display: flex;
     flex-flow: column;
-    margin: 0 auto;
+    margin: 4rem auto;
     max-width: 90vw;
 }
+
 img {
    width: 100%;
    height: auto;
@@ -47,21 +48,37 @@ img {
 .logo {
     display: flex;
     justify-content: center;
-    img {
-       width: 60%;
-    }
 
-    @media (max-width: 426px) {
-        img {
-            width: 100%;
-        }
+    img {
+      width: 100%;
     }
 }
 
+.title {
+    font-size: $font-title;
+    margin-bottom: 2rem;
+    text-transform: lowercase;
+    margin-bottom: 2rem;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: $color-font;
+    padding: 10px;
+    font-size: $font-size-small;
+    text-transform: uppercase;
+    letter-spacing: .3;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #31b891;
+     }
+}
+
 footer {
-    float: left;
     background-color: $color-bg-box;
-    padding: 40px 0;
 
     p{
         font-size: 1.3rem;

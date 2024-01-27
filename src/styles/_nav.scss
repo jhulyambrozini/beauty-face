@@ -7,12 +7,15 @@
     &__link {  
         border-radius: 5px;
         color: $color-font;
-        margin: 1rem 0;
-        font-size: $font-size;
+        font-size: $font-size-medium;
         padding: 10px;
         text-align: center;
         text-decoration: none;
         font-weight: bold;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 
     @media (max-width: 426px) {
